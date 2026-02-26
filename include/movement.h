@@ -1,3 +1,9 @@
+#ifndef MOVEMENT_H
+#define MOVEMENT_H
+
+#include <bn_fixed.h>
+#include <bn_sprite_ptr.h>
+#include "Center.h"
 /**
  * Moves sprite up/down/left/right based on the d-pad being held.
  *
@@ -7,6 +13,6 @@
  * @param sprite the sprite to move
  * @param speed the speed at which to move the sprite in each dimension
  */
-#include <bn_sprite_ptr.h>
-#include <bn_fixed.h>
 void dPadMoveSprite(bn::sprite_ptr &sprite, bn::fixed speed);
+
+#endif

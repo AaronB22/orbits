@@ -1,5 +1,5 @@
 #include "movement.h"
-#include <bn_keypad.h>
+#include <bn_keypad.h> 
 void dPadMoveSprite(bn::sprite_ptr &sprite, bn::fixed speed)
 {
     bn::fixed dx = 0;
